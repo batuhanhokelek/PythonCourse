@@ -152,8 +152,8 @@ print("Correlation matrix for test group and predictions in Gaussian Process Reg
 
 # exploratory visualization
 plt.hist(immigration['sentiment'], bins=15, color="darkorange", edgecolor="black")
-plt.title("Sentiment Distribution of Dataset")
-plt.xlabel("Sentiment Score")
+plt.title("Sentiment Distribution of the Dataset")
+plt.xlabel("Sentiment Scores")
 plt.ylabel("Counts")
 plt.show()
 
